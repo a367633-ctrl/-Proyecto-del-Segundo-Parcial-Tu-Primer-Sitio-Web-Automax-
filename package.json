@@ -1,0 +1,9 @@
+{
+  "name": "automax-web",
+  "version": "1.0.0",
+  "description": "Sitio web de renta de vehículos Automax",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

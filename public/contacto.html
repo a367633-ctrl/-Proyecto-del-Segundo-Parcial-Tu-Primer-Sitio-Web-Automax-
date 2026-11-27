@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Automax</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">AUTO<span>MAX</span></a>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="/contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-title">Contáctanos</h1>
+
+        <div class="grid-2">
+            <section class="card-box">
+                <h2>Información de Ubicación y Atención</h2>
+                <p><strong>Dirección:</strong> Av. Universidad #2500, Col. Centro, C.P. 31000, Chihuahua, Chih., México.</p>
+                <br>
+                <p><strong>Teléfono:</strong> (614) 412-8890</p>
+                <br>
+                <p><strong>Correo electrónico:</strong> contacto@automax.com.mx</p>
+                <br>
+                <p><strong>Horarios de atención:</strong></p>
+                <ul class="specs-list">
+                    <li>Lunes a Viernes: 8:00 AM – 7:00 PM</li>
+                    <li>Sábados: 9:00 AM – 4:00 PM</li>
+                    <li>Domingos: Cerrado (entregas programadas únicamente)</li>
+                </ul>
+            </section>
+
+            <section class="card-box">
+                <h2>Envíanos un mensaje</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ej. Ana López">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico *</label>
+                        <input type="email" id="correo" name="correo" required placeholder="Ej. ana@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono" required placeholder="Ej. 6141234567">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje o vehículo de interés *</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu consulta aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar solicitud</button>
+                    <div id="formAlert" class="alert" role="alert"></div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Automax Renta de Automóviles. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
