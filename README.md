@@ -3,9 +3,9 @@
 Proyecto Integrador del Segundo Parcial de la materia **Desarrollo Basado en Plataformas** (Ingeniería en Computación, UACH).
 
 ## Integrantes del Equipo
-* [Nombre del Integrante 1] - [Matrícula]
-* [Nombre del Integrante 2] - [Matrícula]
-* [Nombre del Integrante 3] - [Matrícula]
+* Carlos Ubaldo Dominguez Valles - 367633
+* Daniel Emiliano Jiménez Frade - 376976
+* Juan David Rocha Montelongo  - 367910
 
 ## Descripción General
 Aplicación web desarrollada con **Node.js** nativo, **HTML5**, **CSS3** propio (sin frameworks) y **JavaScript** para la empresa de renta de automóviles **Automax**. Permite consultar un catálogo de 25 vehículos, visualizar las especificaciones detalladas de los primeros tres modelos, conocer la identidad de la empresa y enviar solicitudes de contacto que se almacenan en el servidor.
