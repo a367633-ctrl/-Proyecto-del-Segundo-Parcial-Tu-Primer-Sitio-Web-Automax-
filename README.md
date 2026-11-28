@@ -20,8 +20,8 @@ Aplicación web desarrollada con **Node.js** nativo, **HTML5**, **CSS3** propio 
 ## Instrucciones para Ejecutar Localmente
 1. Clonar el repositorio:
    ```bash
-   git clone <https://github.com/a367633-ctrl/-Proyecto-del-Segundo-Parcial-Tu-Primer-Sitio-Web-Automax-.git>
-   cd automax-web
+   git clone https://github.com/a367633-ctrl/-Proyecto-del-Segundo-Parcial-Tu-Primer-Sitio-Web-Automax-.git automax
+   cd automax
    ```
 2. Iniciar el servidor con Node.js:
    ```bash
@@ -32,13 +32,13 @@ Aplicación web desarrollada con **Node.js** nativo, **HTML5**, **CSS3** propio 
 ## Instrucciones para Ejecutar con Docker
 1. Descargar la imagen pública desde Docker Hub:
    ```bash
-   docker pull <TU_USUARIO_DOCKERHUB>/automax:latest
+   docker pull danielemilianojf/automax:latest
    ```
 2. Ejecutar el contenedor mapeando el puerto `8888`:
    ```bash
-   docker run -d -p 8888:8888 --name automax-app <TU_USUARIO_DOCKERHUB>/automax:latest
+   docker run -d -p 8888:8888 --name automax-app danielemilianojf/automax:latest
    ```
 3. Abrir `http://localhost:8888` en el navegador.
 
 ## Enlace a Docker Hub
-* Imagen pública: `https://hub.docker.com/r/<TU_USUARIO_DOCKERHUB>/automax`
+* Imagen pública: https://hub.docker.com/r/danielemilianojf/automax
