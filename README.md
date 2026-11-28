@@ -20,7 +20,7 @@ Aplicación web desarrollada con **Node.js** nativo, **HTML5**, **CSS3** propio 
 ## Instrucciones para Ejecutar Localmente
 1. Clonar el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/a367633-ctrl/-Proyecto-del-Segundo-Parcial-Tu-Primer-Sitio-Web-Automax-.git>
    cd automax-web
    ```
 2. Iniciar el servidor con Node.js:
